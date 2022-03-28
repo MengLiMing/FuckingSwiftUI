@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F451385A27F148AF00468AD5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451385927F148AF00468AD5 /* DragGestureView.swift */; };
+		F451385E27F14E9300468AD5 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451385D27F14E9300468AD5 /* RotationGestureView.swift */; };
+		F451386027F160FA00468AD5 /* SimultaneousGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451385F27F160FA00468AD5 /* SimultaneousGestureView.swift */; };
 		F453B60F27EAEB68006227E3 /* FuckingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453B60E27EAEB68006227E3 /* FuckingSwiftUIApp.swift */; };
 		F453B61127EAEB68006227E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453B61027EAEB68006227E3 /* ContentView.swift */; };
 		F453B61327EAEB69006227E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F453B61227EAEB69006227E3 /* Assets.xcassets */; };
@@ -43,9 +46,19 @@
 		F4655D2B27ED6AC1004CC3FD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D2A27ED6AC1004CC3FD /* ActivityIndicatorView.swift */; };
 		F4655D2F27ED6C7A004CC3FD /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D2E27ED6C7A004CC3FD /* BlurView.swift */; };
 		F4655D3127ED6DB7004CC3FD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D3027ED6DB7004CC3FD /* ImagePicker.swift */; };
+		F4655D3327ED8733004CC3FD /* ShapeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D3227ED8733004CC3FD /* ShapeAnimationView.swift */; };
+		F4655D3527ED8B6A004CC3FD /* GeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D3427ED8B6A004CC3FD /* GeometryEffectView.swift */; };
+		F4655D3727ED8ED7004CC3FD /* ProjectionTransform+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4655D3627ED8ED7004CC3FD /* ProjectionTransform+Transform.swift */; };
+		F46928EA27ED9ACD007A3EA8 /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46928E927ED9ACD007A3EA8 /* AnimatableView.swift */; };
+		F46928EC27ED9F0B007A3EA8 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46928EB27ED9F0B007A3EA8 /* TapGestureView.swift */; };
+		F46928EE27EDA6A8007A3EA8 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46928ED27EDA6A8007A3EA8 /* LongPressGestureView.swift */; };
+		F46928F027EDB1BB007A3EA8 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46928EF27EDB1BB007A3EA8 /* MagnificationGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F451385927F148AF00468AD5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		F451385D27F14E9300468AD5 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		F451385F27F160FA00468AD5 /* SimultaneousGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestureView.swift; sourceTree = "<group>"; };
 		F453B60B27EAEB68006227E3 /* FuckingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F453B60E27EAEB68006227E3 /* FuckingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingSwiftUIApp.swift; sourceTree = "<group>"; };
 		F453B61027EAEB68006227E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +96,13 @@
 		F4655D2A27ED6AC1004CC3FD /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		F4655D2E27ED6C7A004CC3FD /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		F4655D3027ED6DB7004CC3FD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F4655D3227ED8733004CC3FD /* ShapeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeAnimationView.swift; sourceTree = "<group>"; };
+		F4655D3427ED8B6A004CC3FD /* GeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectView.swift; sourceTree = "<group>"; };
+		F4655D3627ED8ED7004CC3FD /* ProjectionTransform+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProjectionTransform+Transform.swift"; sourceTree = "<group>"; };
+		F46928E927ED9ACD007A3EA8 /* AnimatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableView.swift; sourceTree = "<group>"; };
+		F46928EB27ED9F0B007A3EA8 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		F46928ED27EDA6A8007A3EA8 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		F46928EF27EDB1BB007A3EA8 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F453B62127EAEE70006227E3 /* View+NavigationLink.swift */,
+				F4655D3627ED8ED7004CC3FD /* ProjectionTransform+Transform.swift */,
 				F453B62C27EAFBAE006227E3 /* View+HidenKeyBoard.swift */,
 				F45CE57627EC5DAD001F8ADF /* View+Size.swift */,
 				F45CE57E27EC647E001F8ADF /* Color+Random.swift */,
@@ -175,6 +196,15 @@
 				F4655D2A27ED6AC1004CC3FD /* ActivityIndicatorView.swift */,
 				F4655D2E27ED6C7A004CC3FD /* BlurView.swift */,
 				F4655D3027ED6DB7004CC3FD /* ImagePicker.swift */,
+				F4655D3227ED8733004CC3FD /* ShapeAnimationView.swift */,
+				F4655D3427ED8B6A004CC3FD /* GeometryEffectView.swift */,
+				F46928E927ED9ACD007A3EA8 /* AnimatableView.swift */,
+				F46928EB27ED9F0B007A3EA8 /* TapGestureView.swift */,
+				F46928ED27EDA6A8007A3EA8 /* LongPressGestureView.swift */,
+				F46928EF27EDB1BB007A3EA8 /* MagnificationGestureView.swift */,
+				F451385927F148AF00468AD5 /* DragGestureView.swift */,
+				F451385D27F14E9300468AD5 /* RotationGestureView.swift */,
+				F451385F27F160FA00468AD5 /* SimultaneousGestureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +281,7 @@
 			files = (
 				F4655D1F27ED51CD004CC3FD /* FormView.swift in Sources */,
 				F45CE56927EC1166001F8ADF /* NavigationLinkView.swift in Sources */,
+				F4655D3327ED8733004CC3FD /* ShapeAnimationView.swift in Sources */,
 				F45CE57B27EC60A9001F8ADF /* HStackView.swift in Sources */,
 				F4655D3127ED6DB7004CC3FD /* ImagePicker.swift in Sources */,
 				F453B68927EB19F8006227E3 /* ImageView.swift in Sources */,
@@ -258,6 +289,7 @@
 				F45CE57527EC54DE001F8ADF /* SliderView.swift in Sources */,
 				F453B62B27EAF43A006227E3 /* TextFieldView.swift in Sources */,
 				F4655D2927ED64FF004CC3FD /* ConfirmationDialogView.swift in Sources */,
+				F451385A27F148AF00468AD5 /* DragGestureView.swift in Sources */,
 				F453B62D27EAFBAE006227E3 /* View+HidenKeyBoard.swift in Sources */,
 				F45CE57927EC5E8F001F8ADF /* StepperView.swift in Sources */,
 				F45CE58127EC68EF001F8ADF /* ListView.swift in Sources */,
@@ -267,8 +299,11 @@
 				F45CE57F27EC647E001F8ADF /* Color+Random.swift in Sources */,
 				F453B61127EAEB68006227E3 /* ContentView.swift in Sources */,
 				F45CE57327EC3991001F8ADF /* ProgressViewPage.swift in Sources */,
+				F4655D3727ED8ED7004CC3FD /* ProjectionTransform+Transform.swift in Sources */,
+				F4655D3527ED8B6A004CC3FD /* GeometryEffectView.swift in Sources */,
 				F45CE56D27EC18C0001F8ADF /* MapView.swift in Sources */,
 				F45CE56F27EC33D4001F8ADF /* PickerView.swift in Sources */,
+				F46928F027EDB1BB007A3EA8 /* MagnificationGestureView.swift in Sources */,
 				F45CE57D27EC621C001F8ADF /* VStackView.swift in Sources */,
 				F453B68B27EB1F4A006227E3 /* ButtonView.swift in Sources */,
 				F45CE58327EC7138001F8ADF /* LazyH_VGridView.swift in Sources */,
@@ -276,13 +311,18 @@
 				F4655D2727ED63FD004CC3FD /* SheetView.swift in Sources */,
 				F45CE57727EC5DAD001F8ADF /* View+Size.swift in Sources */,
 				F453B60F27EAEB68006227E3 /* FuckingSwiftUIApp.swift in Sources */,
+				F46928EA27ED9ACD007A3EA8 /* AnimatableView.swift in Sources */,
 				F4655D2F27ED6C7A004CC3FD /* BlurView.swift in Sources */,
 				F453B62F27EAFE2F006227E3 /* TextEditorView.swift in Sources */,
 				F4655D2B27ED6AC1004CC3FD /* ActivityIndicatorView.swift in Sources */,
 				F453B62527EAEF9C006227E3 /* TextView.swift in Sources */,
 				F4655D2527ED6195004CC3FD /* AlertView.swift in Sources */,
+				F46928EE27EDA6A8007A3EA8 /* LongPressGestureView.swift in Sources */,
+				F451385E27F14E9300468AD5 /* RotationGestureView.swift in Sources */,
 				F453B62927EAF1AF006227E3 /* LabelView.swift in Sources */,
+				F46928EC27ED9F0B007A3EA8 /* TapGestureView.swift in Sources */,
 				F45CE56B27EC13C2001F8ADF /* ToggleView.swift in Sources */,
+				F451386027F160FA00468AD5 /* SimultaneousGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,9 +15,57 @@ struct ContentView: View {
                 
                 viewLayoutAndPresentation
                 
+                gesture
+                
                 uiKit
+                
+                animations
             }
             .navigationTitle("Fucking SwiftUI")
+        }
+    }
+    
+    var gesture: some View {
+        Section("Gesture") {
+            ContentRow(title: "TapGesture").navigationLink {
+                TapGestureView()
+            }
+            
+            ContentRow(title: "LongPressGesture").navigationLink {
+                LongPressGestureView()
+            }
+            
+            ContentRow(title: "DragGesture").navigationLink {
+                DragGestureView()
+            }
+            
+            ContentRow(title: "MagnificationGesture").navigationLink {
+                MagnificationGestureView()
+            }
+            
+            ContentRow(title: "RotationGesture").navigationLink {
+                RotationGestureView()
+            }
+            
+            ContentRow(title: "SimultaneousGesture").navigationLink {
+                SimultaneousGestureView()
+            }
+        }
+    }
+    
+    var animations: some View {
+        Section("Animation") {
+            ContentRow(title: "Shape").navigationLink {
+                ShapeAnimationView()
+            }
+            
+            ContentRow(title: "GeometryEffect").navigationLink {
+                GeometryEffectView()
+            }
+            
+            ContentRow(title: "Animatable").navigationLink {
+                AnimatableView()
+            }
         }
     }
     
