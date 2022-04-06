@@ -13,6 +13,8 @@ struct ContentListView: View {
             List {
                 fixed
                 flexible
+                adaptive
+                mix
             }
             .navigationTitle("Grid")
             .navigationBarTitleDisplayMode(.inline)
@@ -40,16 +42,33 @@ struct ContentListView: View {
             RowView(title: "flexible + flexible") {
                 Flexible_Flexible()
             }
+        }
+    }
+    
+    var adaptive: some View {
+        Section("Adaptive") {
+            RowView(title: "adaptive") {
+                Adaptive()
+            }
             
+            RowView(title: "adaptive + adaptive") {
+                Adaptive_Adaptive()
+            }
+        }
+    }
+    
+    var mix: some View {
+        Section("Mix") {
             RowView(title: "flexible + fixed + flexible") {
                 Flexible_Fixed_Flexible()
             }
             
-            RowView(title: "flexible + fixed + flexible") {
-                Flexible_Plus()
+            RowView(title: "flexible + fixed + adaptive + fixed") {
+             Flexible_Fixed_Adaptive_Fixed()
             }
         }
     }
+    
 }
 
 extension ContentListView {

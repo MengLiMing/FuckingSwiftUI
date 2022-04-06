@@ -15,12 +15,15 @@
 		F40F6EDE27F7008B00896636 /* ContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F6EDD27F7008B00896636 /* ContentListView.swift */; };
 		F40F6EE127F7026800896636 /* FixedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F6EE027F7026800896636 /* FixedView.swift */; };
 		F40F6EE327F7049E00896636 /* Grid+Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F6EE227F7049E00896636 /* Grid+Tool.swift */; };
+		F45B258927FD2D0D00BC8202 /* View+GridItemCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B258827FD2D0D00BC8202 /* View+GridItemCalculate.swift */; };
+		F45B258B27FD2ED800BC8202 /* Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B258A27FD2ED800BC8202 /* Adaptive.swift */; };
+		F45B258D27FD30CC00BC8202 /* Adaptive_Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B258C27FD30CC00BC8202 /* Adaptive_Adaptive.swift */; };
+		F45B258F27FD353600BC8202 /* Flexible_Fixed_Adaptive_Fixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B258E27FD353600BC8202 /* Flexible_Fixed_Adaptive_Fixed.swift */; };
 		F45B2A7627F7DAC30000AF48 /* View+WidthChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B2A7527F7DAC30000AF48 /* View+WidthChange.swift */; };
 		F45B2A7A27F7DEF20000AF48 /* Fixed_Fixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B2A7927F7DEF20000AF48 /* Fixed_Fixed.swift */; };
 		F45B2A7E27F7E0D30000AF48 /* Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B2A7D27F7E0D30000AF48 /* Flexible.swift */; };
 		F45B2A8027F7E29B0000AF48 /* Flexible_Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B2A7F27F7E29B0000AF48 /* Flexible_Flexible.swift */; };
 		F45B2A8327F7FCF20000AF48 /* Flexible_Fixed_Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B2A8227F7FCF20000AF48 /* Flexible_Fixed_Flexible.swift */; };
-		F4DF5B4327F8506C00768481 /* Flexible_Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF5B4227F8506C00768481 /* Flexible_Plus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +36,15 @@
 		F40F6EDD27F7008B00896636 /* ContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentListView.swift; sourceTree = "<group>"; };
 		F40F6EE027F7026800896636 /* FixedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedView.swift; sourceTree = "<group>"; };
 		F40F6EE227F7049E00896636 /* Grid+Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grid+Tool.swift"; sourceTree = "<group>"; };
+		F45B258827FD2D0D00BC8202 /* View+GridItemCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+GridItemCalculate.swift"; sourceTree = "<group>"; };
+		F45B258A27FD2ED800BC8202 /* Adaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adaptive.swift; sourceTree = "<group>"; };
+		F45B258C27FD30CC00BC8202 /* Adaptive_Adaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adaptive_Adaptive.swift; sourceTree = "<group>"; };
+		F45B258E27FD353600BC8202 /* Flexible_Fixed_Adaptive_Fixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible_Fixed_Adaptive_Fixed.swift; sourceTree = "<group>"; };
 		F45B2A7527F7DAC30000AF48 /* View+WidthChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+WidthChange.swift"; sourceTree = "<group>"; };
 		F45B2A7927F7DEF20000AF48 /* Fixed_Fixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixed_Fixed.swift; sourceTree = "<group>"; };
 		F45B2A7D27F7E0D30000AF48 /* Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible.swift; sourceTree = "<group>"; };
 		F45B2A7F27F7E29B0000AF48 /* Flexible_Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible_Flexible.swift; sourceTree = "<group>"; };
 		F45B2A8227F7FCF20000AF48 /* Flexible_Fixed_Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible_Fixed_Flexible.swift; sourceTree = "<group>"; };
-		F4DF5B4227F8506C00768481 /* Flexible_Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible_Plus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,9 @@
 				F45B2A7D27F7E0D30000AF48 /* Flexible.swift */,
 				F45B2A7F27F7E29B0000AF48 /* Flexible_Flexible.swift */,
 				F45B2A8227F7FCF20000AF48 /* Flexible_Fixed_Flexible.swift */,
-				F4DF5B4227F8506C00768481 /* Flexible_Plus.swift */,
+				F45B258A27FD2ED800BC8202 /* Adaptive.swift */,
+				F45B258C27FD30CC00BC8202 /* Adaptive_Adaptive.swift */,
+				F45B258E27FD353600BC8202 /* Flexible_Fixed_Adaptive_Fixed.swift */,
 			);
 			path = Grid_Examples;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 				F40F6EE227F7049E00896636 /* Grid+Tool.swift */,
 				F40F6EDB27F6FEDE00896636 /* View+Debug.swift */,
 				F45B2A7527F7DAC30000AF48 /* View+WidthChange.swift */,
+				F45B258827FD2D0D00BC8202 /* View+GridItemCalculate.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -183,16 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DF5B4327F8506C00768481 /* Flexible_Plus.swift in Sources */,
+				F45B258F27FD353600BC8202 /* Flexible_Fixed_Adaptive_Fixed.swift in Sources */,
 				F40F6ED027F6FECE00896636 /* ContentView.swift in Sources */,
 				F40F6EDC27F6FEDE00896636 /* View+Debug.swift in Sources */,
 				F40F6EDE27F7008B00896636 /* ContentListView.swift in Sources */,
+				F45B258B27FD2ED800BC8202 /* Adaptive.swift in Sources */,
 				F45B2A8027F7E29B0000AF48 /* Flexible_Flexible.swift in Sources */,
 				F45B2A8327F7FCF20000AF48 /* Flexible_Fixed_Flexible.swift in Sources */,
 				F45B2A7A27F7DEF20000AF48 /* Fixed_Fixed.swift in Sources */,
 				F40F6ECE27F6FECE00896636 /* Grid_ExampleApp.swift in Sources */,
 				F45B2A7627F7DAC30000AF48 /* View+WidthChange.swift in Sources */,
+				F45B258927FD2D0D00BC8202 /* View+GridItemCalculate.swift in Sources */,
 				F40F6EE127F7026800896636 /* FixedView.swift in Sources */,
+				F45B258D27FD30CC00BC8202 /* Adaptive_Adaptive.swift in Sources */,
 				F45B2A7E27F7E0D30000AF48 /* Flexible.swift in Sources */,
 				F40F6EE327F7049E00896636 /* Grid+Tool.swift in Sources */,
 			);
