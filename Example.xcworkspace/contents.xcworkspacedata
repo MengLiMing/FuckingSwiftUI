@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Grid_Example/Grid_Example.xcodeproj">
+      location = "group:FuckingSwiftUI/FuckingSwiftUI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:FuckingSwiftUI.xcodeproj">
+      location = "group:Grid_Example/Grid_Example.xcodeproj">
    </FileRef>
 </Workspace>
