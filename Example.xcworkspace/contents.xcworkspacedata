@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FuckingCombine/FuckingCombine.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FuckingSwiftUI/FuckingSwiftUI.xcodeproj">
    </FileRef>
    <FileRef

@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4781211280E820D0018ECAF /* FuckingCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4781210280E820D0018ECAF /* FuckingCombineApp.swift */; };
+		F4781215280E820E0018ECAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4781214280E820E0018ECAF /* Assets.xcassets */; };
+		F4781218280E820E0018ECAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4781217280E820E0018ECAF /* Preview Assets.xcassets */; };
+		F478121F280E83670018ECAF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478121E280E83670018ECAF /* RootView.swift */; };
+		F4781222280E847F0018ECAF /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4781221280E847F0018ECAF /* JustView.swift */; };
+		F4781224280E8A780018ECAF /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4781223280E8A780018ECAF /* FutureView.swift */; };
+		F47812E2280E97830018ECAF /* DeferredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812E1280E97830018ECAF /* DeferredView.swift */; };
+		F47812E4280E9C820018ECAF /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812E3280E9C820018ECAF /* Tool.swift */; };
+		F47812EF280EB2DC0018ECAF /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812EE280EB2DB0018ECAF /* ShareView.swift */; };
+		F47812F1280EB84D0018ECAF /* MulticastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F0280EB84D0018ECAF /* MulticastView.swift */; };
+		F47812F3280F9C270018ECAF /* MeasureIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */; };
+		F47812F7280FB6EF0018ECAF /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F6280FB6EF0018ECAF /* NetworkView.swift */; };
+		F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B4280FD63D0018ECAF /* ContactStoreView.swift */; };
+		F47813B8280FD9670018ECAF /* ExtensionPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F478120D280E820D0018ECAF /* FuckingCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckingCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4781210280E820D0018ECAF /* FuckingCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingCombineApp.swift; sourceTree = "<group>"; };
+		F4781214280E820E0018ECAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4781217280E820E0018ECAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F478121E280E83670018ECAF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F4781221280E847F0018ECAF /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
+		F4781223280E8A780018ECAF /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
+		F47812E1280E97830018ECAF /* DeferredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredView.swift; sourceTree = "<group>"; };
+		F47812E3280E9C820018ECAF /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		F47812EE280EB2DB0018ECAF /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		F47812F0280EB84D0018ECAF /* MulticastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastView.swift; sourceTree = "<group>"; };
+		F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureIntervalView.swift; sourceTree = "<group>"; };
+		F47812F6280FB6EF0018ECAF /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		F47813B4280FD63D0018ECAF /* ContactStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStoreView.swift; sourceTree = "<group>"; };
+		F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPublisher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F478120A280E820D0018ECAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4781204280E820D0018ECAF = {
+			isa = PBXGroup;
+			children = (
+				F478120F280E820D0018ECAF /* FuckingCombine */,
+				F478120E280E820D0018ECAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F478120E280E820D0018ECAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F478120D280E820D0018ECAF /* FuckingCombine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F478120F280E820D0018ECAF /* FuckingCombine */ = {
+			isa = PBXGroup;
+			children = (
+				F4781210280E820D0018ECAF /* FuckingCombineApp.swift */,
+				F478121E280E83670018ECAF /* RootView.swift */,
+				F47812E3280E9C820018ECAF /* Tool.swift */,
+				F47813B6280FD9450018ECAF /* Extension */,
+				F47812F5280FB6BE0018ECAF /* Example */,
+				F47812F4280FA6FC0018ECAF /* Operator */,
+				F4781220280E846E0018ECAF /* Publisher */,
+				F4781214280E820E0018ECAF /* Assets.xcassets */,
+				F4781216280E820E0018ECAF /* Preview Content */,
+			);
+			path = FuckingCombine;
+			sourceTree = "<group>";
+		};
+		F4781216280E820E0018ECAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4781217280E820E0018ECAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4781220280E846E0018ECAF /* Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				F4781221280E847F0018ECAF /* JustView.swift */,
+				F4781223280E8A780018ECAF /* FutureView.swift */,
+				F47812E1280E97830018ECAF /* DeferredView.swift */,
+			);
+			path = Publisher;
+			sourceTree = "<group>";
+		};
+		F47812F4280FA6FC0018ECAF /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				F47812EE280EB2DB0018ECAF /* ShareView.swift */,
+				F47812F0280EB84D0018ECAF /* MulticastView.swift */,
+				F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */,
+			);
+			path = Operator;
+			sourceTree = "<group>";
+		};
+		F47812F5280FB6BE0018ECAF /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F47812F6280FB6EF0018ECAF /* NetworkView.swift */,
+				F47813B4280FD63D0018ECAF /* ContactStoreView.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F47813B6280FD9450018ECAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F478120C280E820D0018ECAF /* FuckingCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F478121B280E820E0018ECAF /* Build configuration list for PBXNativeTarget "FuckingCombine" */;
+			buildPhases = (
+				F4781209280E820D0018ECAF /* Sources */,
+				F478120A280E820D0018ECAF /* Frameworks */,
+				F478120B280E820D0018ECAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckingCombine;
+			packageProductDependencies = (
+			);
+			productName = FuckingCombine;
+			productReference = F478120D280E820D0018ECAF /* FuckingCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4781205280E820D0018ECAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F478120C280E820D0018ECAF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F4781208280E820D0018ECAF /* Build configuration list for PBXProject "FuckingCombine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4781204280E820D0018ECAF;
+			packageReferences = (
+			);
+			productRefGroup = F478120E280E820D0018ECAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F478120C280E820D0018ECAF /* FuckingCombine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F478120B280E820D0018ECAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4781218280E820E0018ECAF /* Preview Assets.xcassets in Resources */,
+				F4781215280E820E0018ECAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4781209280E820D0018ECAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47812E2280E97830018ECAF /* DeferredView.swift in Sources */,
+				F4781211280E820D0018ECAF /* FuckingCombineApp.swift in Sources */,
+				F47813B8280FD9670018ECAF /* ExtensionPublisher.swift in Sources */,
+				F4781224280E8A780018ECAF /* FutureView.swift in Sources */,
+				F47812F7280FB6EF0018ECAF /* NetworkView.swift in Sources */,
+				F47812EF280EB2DC0018ECAF /* ShareView.swift in Sources */,
+				F47812E4280E9C820018ECAF /* Tool.swift in Sources */,
+				F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */,
+				F4781222280E847F0018ECAF /* JustView.swift in Sources */,
+				F478121F280E83670018ECAF /* RootView.swift in Sources */,
+				F47812F1280EB84D0018ECAF /* MulticastView.swift in Sources */,
+				F47812F3280F9C270018ECAF /* MeasureIntervalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4781219280E820E0018ECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F478121A280E820E0018ECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F478121C280E820E0018ECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuckingCombine/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MEUQ98276;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "来来来，让我瞅瞅你的联系人";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.FuckingCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F478121D280E820E0018ECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FuckingCombine/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MEUQ98276;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "来来来，让我瞅瞅你的联系人";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.FuckingCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4781208280E820D0018ECAF /* Build configuration list for PBXProject "FuckingCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4781219280E820E0018ECAF /* Debug */,
+				F478121A280E820E0018ECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F478121B280E820E0018ECAF /* Build configuration list for PBXNativeTarget "FuckingCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F478121C280E820E0018ECAF /* Debug */,
+				F478121D280E820E0018ECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4781205280E820D0018ECAF /* Project object */;
+}
