@@ -25,12 +25,20 @@ struct RootView: View {
     
     var example: some View {
         Section("Example") {
-            Cell(title: "Network") {
+            Cell(title: "网络") {
                 NetworkView()
             }
             
             Cell(title: "权限") {
                 ContactStoreView()
+            }
+            
+            Cell(title: "登录") {
+                LoginView()
+            }
+            
+            Cell(title: "通知") {
+                NotificationView()
             }
         }
     }

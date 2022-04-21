@@ -21,6 +21,8 @@
 		F47812F7280FB6EF0018ECAF /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F6280FB6EF0018ECAF /* NetworkView.swift */; };
 		F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B4280FD63D0018ECAF /* ContactStoreView.swift */; };
 		F47813B8280FD9670018ECAF /* ExtensionPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */; };
+		F4F7BD782810F1FA00111F0F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7BD772810F1FA00111F0F /* NotificationView.swift */; };
+		F4FE99742810E7D6003D3DAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE99732810E7D6003D3DAD /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		F47812F6280FB6EF0018ECAF /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		F47813B4280FD63D0018ECAF /* ContactStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStoreView.swift; sourceTree = "<group>"; };
 		F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPublisher.swift; sourceTree = "<group>"; };
+		F4F7BD772810F1FA00111F0F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F4FE99732810E7D6003D3DAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 			children = (
 				F47812F6280FB6EF0018ECAF /* NetworkView.swift */,
 				F47813B4280FD63D0018ECAF /* ContactStoreView.swift */,
+				F4FE99732810E7D6003D3DAD /* LoginView.swift */,
+				F4F7BD772810F1FA00111F0F /* NotificationView.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 				F47812E4280E9C820018ECAF /* Tool.swift in Sources */,
 				F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */,
 				F4781222280E847F0018ECAF /* JustView.swift in Sources */,
+				F4F7BD782810F1FA00111F0F /* NotificationView.swift in Sources */,
 				F478121F280E83670018ECAF /* RootView.swift in Sources */,
+				F4FE99742810E7D6003D3DAD /* LoginView.swift in Sources */,
 				F47812F1280EB84D0018ECAF /* MulticastView.swift in Sources */,
 				F47812F3280F9C270018ECAF /* MeasureIntervalView.swift in Sources */,
 			);
