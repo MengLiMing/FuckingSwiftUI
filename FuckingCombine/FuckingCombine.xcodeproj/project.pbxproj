@@ -15,13 +15,22 @@
 		F4781224280E8A780018ECAF /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4781223280E8A780018ECAF /* FutureView.swift */; };
 		F47812E2280E97830018ECAF /* DeferredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812E1280E97830018ECAF /* DeferredView.swift */; };
 		F47812E4280E9C820018ECAF /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812E3280E9C820018ECAF /* Tool.swift */; };
-		F47812EF280EB2DC0018ECAF /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812EE280EB2DB0018ECAF /* ShareView.swift */; };
-		F47812F1280EB84D0018ECAF /* MulticastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F0280EB84D0018ECAF /* MulticastView.swift */; };
-		F47812F3280F9C270018ECAF /* MeasureIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */; };
 		F47812F7280FB6EF0018ECAF /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47812F6280FB6EF0018ECAF /* NetworkView.swift */; };
 		F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B4280FD63D0018ECAF /* ContactStoreView.swift */; };
 		F47813B8280FD9670018ECAF /* ExtensionPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */; };
+		F47C2D882815207200458DE6 /* CollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2D872815207200458DE6 /* CollectView.swift */; };
+		F47C2D8C2815210900458DE6 /* AllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2D8B2815210900458DE6 /* AllSatisfyView.swift */; };
+		F47C2D8E281521D500458DE6 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2D8D281521D500458DE6 /* DropView.swift */; };
+		F47C2D9028152CE900458DE6 /* PrependView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2D8F28152CE900458DE6 /* PrependView.swift */; };
+		F47C2F622816302D00458DE6 /* PrefixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2F612816302D00458DE6 /* PrefixView.swift */; };
+		F47C2F64281632D900458DE6 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2F63281632D900458DE6 /* CombineView.swift */; };
+		F47C2F6628163FF800458DE6 /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2F6528163FF800458DE6 /* DebounceView.swift */; };
+		F47C2FC0281643F300458DE6 /* ThrottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2FBF281643F300458DE6 /* ThrottleView.swift */; };
+		F47C2FC22816476600458DE6 /* BreakPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C2FC12816476600458DE6 /* BreakPointView.swift */; };
 		F4F7BD782810F1FA00111F0F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7BD772810F1FA00111F0F /* NotificationView.swift */; };
+		F4F7BD7A281126AD00111F0F /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7BD79281126AD00111F0F /* RecordView.swift */; };
+		F4F7BDF7281146A300111F0F /* OnReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7BDF6281146A300111F0F /* OnReceiveView.swift */; };
+		F4F7BDFD281279C500111F0F /* OperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7BDFC281279C500111F0F /* OperatorView.swift */; };
 		F4FE99742810E7D6003D3DAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE99732810E7D6003D3DAD /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,13 +44,22 @@
 		F4781223280E8A780018ECAF /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
 		F47812E1280E97830018ECAF /* DeferredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredView.swift; sourceTree = "<group>"; };
 		F47812E3280E9C820018ECAF /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		F47812EE280EB2DB0018ECAF /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
-		F47812F0280EB84D0018ECAF /* MulticastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastView.swift; sourceTree = "<group>"; };
-		F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureIntervalView.swift; sourceTree = "<group>"; };
 		F47812F6280FB6EF0018ECAF /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		F47813B4280FD63D0018ECAF /* ContactStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStoreView.swift; sourceTree = "<group>"; };
 		F47813B7280FD9670018ECAF /* ExtensionPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPublisher.swift; sourceTree = "<group>"; };
+		F47C2D872815207200458DE6 /* CollectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectView.swift; sourceTree = "<group>"; };
+		F47C2D8B2815210900458DE6 /* AllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyView.swift; sourceTree = "<group>"; };
+		F47C2D8D281521D500458DE6 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		F47C2D8F28152CE900458DE6 /* PrependView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrependView.swift; sourceTree = "<group>"; };
+		F47C2F612816302D00458DE6 /* PrefixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixView.swift; sourceTree = "<group>"; };
+		F47C2F63281632D900458DE6 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		F47C2F6528163FF800458DE6 /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
+		F47C2FBF281643F300458DE6 /* ThrottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrottleView.swift; sourceTree = "<group>"; };
+		F47C2FC12816476600458DE6 /* BreakPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPointView.swift; sourceTree = "<group>"; };
 		F4F7BD772810F1FA00111F0F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F4F7BD79281126AD00111F0F /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		F4F7BDF6281146A300111F0F /* OnReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceiveView.swift; sourceTree = "<group>"; };
+		F4F7BDFC281279C500111F0F /* OperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorView.swift; sourceTree = "<group>"; };
 		F4FE99732810E7D6003D3DAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +95,7 @@
 			children = (
 				F4781210280E820D0018ECAF /* FuckingCombineApp.swift */,
 				F478121E280E83670018ECAF /* RootView.swift */,
+				F4F7BDFC281279C500111F0F /* OperatorView.swift */,
 				F47812E3280E9C820018ECAF /* Tool.swift */,
 				F47813B6280FD9450018ECAF /* Extension */,
 				F47812F5280FB6BE0018ECAF /* Example */,
@@ -102,6 +121,7 @@
 				F4781221280E847F0018ECAF /* JustView.swift */,
 				F4781223280E8A780018ECAF /* FutureView.swift */,
 				F47812E1280E97830018ECAF /* DeferredView.swift */,
+				F4F7BD79281126AD00111F0F /* RecordView.swift */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
@@ -109,9 +129,15 @@
 		F47812F4280FA6FC0018ECAF /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				F47812EE280EB2DB0018ECAF /* ShareView.swift */,
-				F47812F0280EB84D0018ECAF /* MulticastView.swift */,
-				F47812F2280F9C270018ECAF /* MeasureIntervalView.swift */,
+				F47C2D872815207200458DE6 /* CollectView.swift */,
+				F47C2D8B2815210900458DE6 /* AllSatisfyView.swift */,
+				F47C2D8D281521D500458DE6 /* DropView.swift */,
+				F47C2D8F28152CE900458DE6 /* PrependView.swift */,
+				F47C2F612816302D00458DE6 /* PrefixView.swift */,
+				F47C2F63281632D900458DE6 /* CombineView.swift */,
+				F47C2F6528163FF800458DE6 /* DebounceView.swift */,
+				F47C2FBF281643F300458DE6 /* ThrottleView.swift */,
+				F47C2FC12816476600458DE6 /* BreakPointView.swift */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -123,6 +149,7 @@
 				F47813B4280FD63D0018ECAF /* ContactStoreView.swift */,
 				F4FE99732810E7D6003D3DAD /* LoginView.swift */,
 				F4F7BD772810F1FA00111F0F /* NotificationView.swift */,
+				F4F7BDF6281146A300111F0F /* OnReceiveView.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -210,19 +237,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47812E2280E97830018ECAF /* DeferredView.swift in Sources */,
+				F47C2FC22816476600458DE6 /* BreakPointView.swift in Sources */,
 				F4781211280E820D0018ECAF /* FuckingCombineApp.swift in Sources */,
 				F47813B8280FD9670018ECAF /* ExtensionPublisher.swift in Sources */,
 				F4781224280E8A780018ECAF /* FutureView.swift in Sources */,
+				F47C2F64281632D900458DE6 /* CombineView.swift in Sources */,
 				F47812F7280FB6EF0018ECAF /* NetworkView.swift in Sources */,
-				F47812EF280EB2DC0018ECAF /* ShareView.swift in Sources */,
+				F47C2D882815207200458DE6 /* CollectView.swift in Sources */,
+				F47C2D8C2815210900458DE6 /* AllSatisfyView.swift in Sources */,
+				F47C2D8E281521D500458DE6 /* DropView.swift in Sources */,
 				F47812E4280E9C820018ECAF /* Tool.swift in Sources */,
+				F47C2FC0281643F300458DE6 /* ThrottleView.swift in Sources */,
+				F47C2D9028152CE900458DE6 /* PrependView.swift in Sources */,
 				F47813B5280FD63D0018ECAF /* ContactStoreView.swift in Sources */,
 				F4781222280E847F0018ECAF /* JustView.swift in Sources */,
+				F4F7BDF7281146A300111F0F /* OnReceiveView.swift in Sources */,
+				F4F7BDFD281279C500111F0F /* OperatorView.swift in Sources */,
 				F4F7BD782810F1FA00111F0F /* NotificationView.swift in Sources */,
 				F478121F280E83670018ECAF /* RootView.swift in Sources */,
 				F4FE99742810E7D6003D3DAD /* LoginView.swift in Sources */,
-				F47812F1280EB84D0018ECAF /* MulticastView.swift in Sources */,
-				F47812F3280F9C270018ECAF /* MeasureIntervalView.swift in Sources */,
+				F47C2F622816302D00458DE6 /* PrefixView.swift in Sources */,
+				F4F7BD7A281126AD00111F0F /* RecordView.swift in Sources */,
+				F47C2F6628163FF800458DE6 /* DebounceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,10 +384,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FuckingCombine/Preview Content\"";
-				DEVELOPMENT_TEAM = 5MEUQ98276;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSContactsUsageDescription = "来来来，让我瞅瞅你的联系人";
@@ -367,6 +403,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.FuckingCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,10 +415,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FuckingCombine/Preview Content\"";
-				DEVELOPMENT_TEAM = 5MEUQ98276;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSContactsUsageDescription = "来来来，让我瞅瞅你的联系人";
@@ -397,6 +434,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mlm.FuckingCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

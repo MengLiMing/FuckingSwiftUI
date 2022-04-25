@@ -33,27 +33,17 @@ extension NetworkView {
         @Published private(set) var result: Bool?
         
         private let publisher = PassthroughSubject<Void, Never>()
-
+        
         init() {
-//          publisher
-//                .map { _ in
-//                    postmanTimeCheck(date: .now)
-//                        .print()
-//                }
-//                .switchToLatest()
-//                .map { $0.valid }
-//                .receive(on: DispatchQueue.main)
-//                .replaceError(with: nil)
-//                .assign(to: &$result)
-            
-            publisher.flatMapLatest { _ in
-                postmanTimeCheck(date: .now)
-                    .print()
-            }
-            .map { $0.valid }
-            .receive(on: DispatchQueue.main)
-            .replaceError(with: nil)
-            .assign(to: &$result)
+            publisher
+                .flatMapLatest { _ in
+                    postmanTimeCheck(date: .now)
+                        .print()
+                }
+                .map { $0.valid }
+                .receive(on: DispatchQueue.main)
+                .replaceError(with: nil)
+                .assign(to: &$result)
             
             Publishers.Merge(
                 publisher.map { true },

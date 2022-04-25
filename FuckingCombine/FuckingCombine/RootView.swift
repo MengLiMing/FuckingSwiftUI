@@ -11,16 +11,24 @@ struct RootView: View {
     var body: some View {
         NavigationView {
             List {
-                publisher
-                
                 `operator`
-                
+
+                publisher
+                                
                 example
             }
             .navigationTitle("FuckingCombine")
         }
         /// 使用stack-style，否则退出页面后倒计时未结束
         .navigationViewStyle(.stack)
+    }
+    
+    var `operator`: some View {
+        Section("Operator") {
+            Cell(title: "操作符") {
+                OperatorView()
+            }
+        }
     }
     
     var example: some View {
@@ -40,21 +48,9 @@ struct RootView: View {
             Cell(title: "通知") {
                 NotificationView()
             }
-        }
-    }
-    
-    var `operator`: some View {
-        Section("Operator") {
-            Cell(title: "Share") {
-                ShareView()
-            }
             
-            Cell(title: "Multicast") {
-                MulticastView()
-            }
-            
-            Cell(title: "MeasureInterval") {
-                MeasureIntervalView()
+            Cell(title: "SwiftUI监听Publisher") {
+                OnReceiveView()
             }
         }
     }
@@ -72,6 +68,10 @@ struct RootView: View {
             Cell(title: "Deferred") {
                 DeferredView()
             }
+            
+            Cell(title: "Record") {
+                RecordView()
+            }
         }
     }
 }
@@ -82,19 +82,17 @@ struct RootView_Previews: PreviewProvider {
     }
 }
 
-extension RootView {
-    struct Cell<Content: View>: View {
-        var title: String
-        
-        @ViewBuilder let content: () -> Content
-        
-        var body: some View {
-            NavigationLink {
-               content()
-            } label: {
-                Text(title)
-                    .font(.headline)
-            }
+struct Cell<Content: View>: View {
+    var title: String
+    
+    @ViewBuilder let content: () -> Content
+    
+    var body: some View {
+        NavigationLink {
+           content()
+        } label: {
+            Text(title)
+                .font(.headline)
         }
     }
 }
